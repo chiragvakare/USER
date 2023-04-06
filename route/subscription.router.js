@@ -8,4 +8,5 @@ router.get("/viewSubscription",viewSubscriptionPlan);
 //add subscription plan
 router.post("/adSubscription",verify,addSubscription);
 
+
 export default router;
